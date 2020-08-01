@@ -14,6 +14,6 @@ public class MyController {
     @GetMapping("/")
     public String home(@RequestParam String name, ModelMap modelMap){
          modelMap.put("name",name);
-         return "hello";
+         return "hello Boss";
     }
 }
